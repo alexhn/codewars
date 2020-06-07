@@ -36,7 +36,6 @@ public class Spiralizer {
 					if (di * dj == 0) {
 						if (i + di >= 0 && j + dj >=0 && i + di < a.length && j + dj < a.length) {
 							if (a[i + di][j + dj] == 1 && (i + di != ci || j + dj != cj)) {
-								System.out.println("BAD: " + (i + di) + " " + (j + dj));
 								return false;
 							}
 						}
